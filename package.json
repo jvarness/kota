@@ -1,0 +1,40 @@
+{
+    "author": "jake.varness@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "raleway",
+    "pebble": {
+        "displayName": "Raleway",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Raleway Thin.ttf",
+                    "name": "RALEWAY_THIN_24",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "trackingAdjust": 1,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "11dec7ea-37bf-4a4c-b82f-db46d01dd61e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
