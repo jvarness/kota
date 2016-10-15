@@ -2,24 +2,36 @@
     "author": "jake.varness@gmail.com",
     "dependencies": {},
     "keywords": [],
-    "name": "raleway",
+    "name": "kota",
     "pebble": {
-        "displayName": "Raleway",
+        "displayName": "Kota",
         "enableMultiJS": true,
         "messageKeys": [],
         "projectType": "native",
         "resources": {
             "media": [
                 {
-                    "file": "fonts/Raleway Thin.ttf",
-                    "name": "RALEWAY_THIN_24",
+                    "file": "fonts/Valera",
+                    "name": "VALERA_ROUND_24",
                     "targetPlatforms": [
                         "aplite",
                         "basalt",
                         "chalk",
                         "diorite"
                     ],
-                    "trackingAdjust": 1,
+                    "trackingAdjust": -3,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Valera",
+                    "name": "VALERA_ROUND_36",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "trackingAdjust": -3,
                     "type": "font"
                 }
             ]
